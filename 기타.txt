@@ -1,0 +1,11 @@
+process.exit() -> 노드 프레세서 중지 -> 실행 중지
+process.nextTick() -> 비동기 실행
+
+
+process.nextTick - 0 - 비동기 중에서 우선순위가 가장 높다
+promise - 1 
+setImmediate - 2 - setTimeout(function() {},0);
+setTimeout
+setInterval
+
+
